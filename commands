@@ -1,0 +1,11 @@
+for openmp programs
+
+gcc -fopenmp demo.c -o demo
+./demo
+
+
+for mpi programs
+
+cd /d D:(pathname)
+cl demo.c msmpi.lib
+mpiexec -n 2 demo.exe
